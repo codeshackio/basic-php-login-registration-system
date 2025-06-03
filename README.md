@@ -25,19 +25,6 @@ This system is based on the tutorials "[Secure Login System with PHP and MySQL](
 
 XAMPP is recommended for local development as it includes PHP, MySQL, Apache, and phpMyAdmin.
 
-## File Structure
-
-The project follows this general file structure:
-/phplogin/
-|-- index.php             # Login form page, redirects if already logged in
-|-- style.css             # Stylesheet for all pages
-|-- authenticate.php      # Handles login authentication, session creation
-|-- register.php          # Registration form
-|-- register-process.php  # Handles user registrations
-|-- home.php              # Home page for logged-in users
-|-- profile.php           # User profile page
-|-- logout.php            # Handles user logout (destroys session)
-
 ## Database Setup
 
 1.  **Create a Database:**
@@ -50,12 +37,12 @@ The project follows this general file structure:
 
     ```sql
     CREATE TABLE IF NOT EXISTS `accounts` (
-    	  `id` int(11) NOT NULL AUTO_INCREMENT,
-      	`username` varchar(50) NOT NULL,
-      	`password` varchar(255) NOT NULL,
-      	`email` varchar(100) NOT NULL,
-    	  `registered` datetime NOT NULL,
-        PRIMARY KEY (`id`)
+      `id` int(11) NOT NULL AUTO_INCREMENT,
+      `username` varchar(50) NOT NULL,
+      `password` varchar(255) NOT NULL,
+      `email` varchar(100) NOT NULL,
+      `registered` datetime NOT NULL,
+      PRIMARY KEY (`id`)
     ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
     ```
 
@@ -75,6 +62,7 @@ The project follows this general file structure:
     * `authenticate.php`
     * `profile.php`
     * `register.php`
+
 
     ```php
     <?php
