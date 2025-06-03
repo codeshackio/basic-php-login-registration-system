@@ -4,6 +4,10 @@ This project implements a simple login and registration system with basic securi
 
 This system is based on the tutorials "[Secure Login System with PHP and MySQL](https://codeshack.io/secure-login-system-php-mysql/)" and "[Secure Registration System with PHP and MySQL](https://codeshack.io/secure-registration-system-php-mysql/)".
 
+## Screenshot
+
+![Screenshot of Basic Login & Registration System](assets/screenshot.png)
+
 ## Features
 
 * **User Registration:** Allows new users to create an account.
@@ -112,3 +116,10 @@ The original article highlights several important security practices:
 * This project is based on the tutorials "[Secure Login System with PHP and MySQL](https://codeshack.io/secure-login-system-php-mysql/)" and "[Secure Registration System with PHP and MySQL](https://codeshack.io/secure-registration-system-php-mysql/)" by David Adams at CodeShack.io.
 * Icons used in the forms are from Font Awesome and Material Design Icons.
 
+## Contact
+
+David Adams - [info@codeshack.io](mailto:info@codeshack.io)
+
+GitHub: [https://github.com/codeshackio/basic-php-login-registration-system](https://github.com/codeshackio/basic-php-login-registration-system)
+
+X (Twitter): [https://twitter.com/codeshackio](https://twitter.com/codeshackio)
